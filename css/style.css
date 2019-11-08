@@ -17,14 +17,13 @@ body {
 
 nav {
   background-color: #000;
-  display: block;
   padding: 20px 0 20px 15px;
   position: fixed;
   width: 420px;
 }
 
 .restaurant-list {
-  display: block;
+
   background-color: gray;
   padding-top: 60px;
 }
@@ -35,7 +34,6 @@ nav {
 }
 
 .arrow {
-  display: block;
   float: right;
   margin: 6% 5% 5% 0;
 }
@@ -43,6 +41,10 @@ nav {
   background-color: white;
   padding: 4%;
   border: 1px, color: red;
+}
+
+.content:hover {
+  background-color: yellow;
 }
 
 h1{
